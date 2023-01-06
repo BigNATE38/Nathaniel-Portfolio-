@@ -52,6 +52,11 @@ p {
     font-weight: 300;
 }
 
+.subtext {
+    font-size: 15px;
+    font-weight: 300;
+}
+
 .hero-area {
     display: flex;
     height: 100%;
@@ -119,9 +124,30 @@ p {
     width: 200px;
     height: 500px;
     box-shadow: 5px 5px 20px grey;
+    margin: 10px;
 }
 
 .project-container {
     display: flex;
     justify-content: space-around;
+}
+
+.project-image {
+    margin-top: 25px;
+    width: 250px;
+    border-radius: 15px;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: #ef744b;
+}
+
+a {
+    text-decoration: none;
 }
